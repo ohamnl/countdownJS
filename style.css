@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0aa;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/bgimg.jpeg);
+   
+}
+
+section, h1 {
+    display: grid;
+    place-content: center;
+   
+}
+
+.container {
+    
+    opacity: 0.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(-45deg, #2412c4, #e73c7e, #177699, #23d5ab,#ff0000);
+	background-size: 400% 400%;
+	animation: gradient 1s ease infinite;
+}
+
+.countdowntimer-el {
+    display: grid;
+    place-content: center;
+    margin: 0 2rem;
+}
+span {
+    margin-top: -5rem;
+}
+.big-text {
+    font-weight: bold;
+    font-size: 100px;
+    
+}
+h1 {
+    font-size: 80px;
+    
+	/* height: 100vh; */
+}
+
+@keyframes gradient {
+        0% {
+            background-position: 0% 40%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
